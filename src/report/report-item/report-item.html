@@ -1,0 +1,7 @@
+<div style="display: flex;justify-content: space-between;">
+<span>{{report.comment}}</span><button (click)="toggleShowDetail()" style="width:200px;border-radius: 100px;">{{detailButtonText}}</button>
+</div>
+<div *ngIf="showDetail" style="margin:10px;margin-top:5px;border-left: solid 3px darkred;border-bottom: solid 3px darkred;padding:10px;">
+    <h5>Person</h5>
+    <p>{{report?.reporter?.forenames + ' ' + report?.reporter?.surname}}</p>
+</div>

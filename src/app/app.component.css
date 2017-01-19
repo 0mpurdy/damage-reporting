@@ -1,0 +1,26 @@
+.city-background {    
+  background: url(../assets/img/city.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h1 {
+    font-family: 'Lora', serif;
+    text-align: center;
+    padding-top: 40px;
+    font-size: 40px;
+}
+
+.full-height {
+    min-height: 110vh;
+}
+
+.translucent{
+  background:rgba(240,240,240,0.95);
+}
+
+.transparent{
+  background:rgba(255,255,255,0);
+}

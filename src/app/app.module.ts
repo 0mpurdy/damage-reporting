@@ -5,16 +5,20 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 
+import { ReportOverview, FakeReportService, ReportItem } from '../report';
+
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ReportOverview,
+    ReportItem
   ],
   imports: [
     BrowserModule,
     FormsModule,
     HttpModule
   ],
-  providers: [],
+  providers: [FakeReportService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

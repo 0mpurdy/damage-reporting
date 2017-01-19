@@ -1,3 +1,16 @@
-<h1>
-  {{title}}
-</h1>
+<div class="city-background" style="padding-left:30px;padding-right:30px;">
+<div class="container translucent full-height">
+  <h1 class="transparent">
+    {{title}}
+  </h1>
+  <br>
+  <br>
+  <br>
+  <div *ngIf="reports && reports.length > 0">
+    <report-overview [reports]="reports"></report-overview>
+  </div>
+  <div *ngIf="!(reports && reports.length > 0)">
+    <p>No reports to show at this time</p>
+  </div>
+</div>
+</div>
