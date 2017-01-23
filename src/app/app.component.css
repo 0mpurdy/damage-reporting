@@ -7,7 +7,6 @@
 }
 
 h1 {
-    font-family: 'Lora', serif;
     text-align: center;
     padding-top: 40px;
     font-size: 40px;
@@ -15,6 +14,22 @@ h1 {
 
 .full-height {
     min-height: 110vh;
+}
+
+.responsive-width {
+width:100%;
+  }
+
+@media only screen and (min-width: 600px) {
+  .responsive-width {
+    width:80%;
+  }  
+}
+
+@media only screen and (min-width: 768px) {
+  .responsive-width {
+    width:70%;
+  }
 }
 
 .translucent{
