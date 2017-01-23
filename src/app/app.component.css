@@ -13,7 +13,8 @@ h1 {
 }
 
 .full-height {
-    min-height: 110vh;
+    min-height: 100vh;
+    padding-bottom: 10vh;
 }
 
 .responsive-width {

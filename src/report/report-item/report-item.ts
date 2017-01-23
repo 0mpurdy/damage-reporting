@@ -3,6 +3,7 @@ import { Component, Input } from '@angular/core';
 @Component({
     selector: 'report-item',
     templateUrl: './report-item.html',
+    styleUrls: ['./report-item.css']
 })
 export class ReportItem {
 

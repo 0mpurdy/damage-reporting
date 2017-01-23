@@ -1,0 +1,11 @@
+.detail {
+    margin:10px;
+    margin-top:5px;
+    border-left: solid 3px darkred;
+    border-bottom: solid 3px darkred;
+    padding:10px;
+}
+
+.detail-title {
+    color:darkred;
+}

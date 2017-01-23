@@ -10,7 +10,7 @@ export class FakeReportService {
                 surname: 'Johnson',
                 address: '72 Juniper Lane',
                 town: 'Barham',
-                postCode: 'BH76YY'
+                postCode: 'BH7 6YY'
             },
             location: {
                 x: 53.914907,
@@ -22,11 +22,11 @@ export class FakeReportService {
         },
         {
             reporter: {
-                forenames: 'Jack',
-                surname: 'Johnson',
-                address: '72 Juniper Lane',
+                forenames: 'Ian',
+                surname: 'Ferris',
+                address: '12 Oak Lane',
                 town: 'Barham',
-                postCode: 'BH76YY'
+                postCode: 'BH3 6DY'
             },
             location: {
                 x: 53.914907,
@@ -38,11 +38,11 @@ export class FakeReportService {
         },
         {
             reporter: {
-                forenames: 'Jack',
-                surname: 'Johnson',
-                address: '72 Juniper Lane',
+                forenames: 'Steph',
+                surname: 'Lynn',
+                address: '18 Ash Crescent',
                 town: 'Barham',
-                postCode: 'BH76YY'
+                postCode: 'BH7 6YP'
             },
             location: {
                 x: 53.914907,
@@ -54,11 +54,11 @@ export class FakeReportService {
         },
         {
             reporter: {
-                forenames: 'Jack',
-                surname: 'Johnson',
-                address: '72 Juniper Lane',
+                forenames: 'Ben',
+                surname: 'Jamison',
+                address: '11 Juniper Lane',
                 town: 'Barham',
-                postCode: 'BH76YY'
+                postCode: 'BH7 6YY'
             },
             location: {
                 x: 53.914907,
