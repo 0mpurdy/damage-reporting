@@ -9,3 +9,7 @@ html {
 * {
     font-family: 'Lora', serif;
 }
+
+select option {
+    font-family:sans-serif;
+}

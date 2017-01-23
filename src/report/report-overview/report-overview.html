@@ -1,4 +1,11 @@
 <h3>Reports</h3>
-<div *ngFor="let report of reports" style="display:flex;justify-content:space-between;margin-top:10px;margin-bottom: 10px;">
-    <report-item [report]="report" style="width:100%"></report-item>
+<div style="padding:5px;text-align:right;">
+    <select name="" id="" [(ngModel)]="reportType" style="width:200px;">
+        <option *ngFor="let type of ReportType | keys" [value]="type.key">{{type.value}}</option>
+    </select>
+</div>
+<div *ngFor="let report of reports">
+    <div *ngIf="reportType == ReportType.Any || reportType == report.type" style="display:flex;justify-content:space-between;margin-top:10px;margin-bottom: 10px;">
+        <report-item [report]="report" style="width:100%"></report-item>
+    </div>
 </div>

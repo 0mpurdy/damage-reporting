@@ -6,12 +6,14 @@ import { HttpModule } from '@angular/http';
 import { AppComponent } from './app.component';
 
 import { ReportOverview, FakeReportService, ReportItem } from '../report';
+import { KeysPipe } from '../pipes/keys/keys.pipe';
 
 @NgModule({
   declarations: [
     AppComponent,
     ReportOverview,
-    ReportItem
+    ReportItem,
+    KeysPipe
   ],
   imports: [
     BrowserModule,
